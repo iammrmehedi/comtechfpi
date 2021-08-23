@@ -5,3 +5,8 @@ body
   text-align: center;
   color: white;
 }
+hr {
+  height: 1px;
+  width: 25%;
+  border-radius: 10px;
+}
