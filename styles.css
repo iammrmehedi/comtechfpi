@@ -29,6 +29,13 @@ a:hover {
   color:rgba(255, 0, 0, 0.8);
 }
 
+label.logo a {
+  color: black;
+}
+label.logo a:hover {
+ color: white;
+}
+
 .logo {
   cursor: pointer;
   background-color: rgba(0, 255, 127, 1);
