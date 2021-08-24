@@ -9,19 +9,24 @@ header{
   justify-content: space-between;
   align-items: center;
   padding: 30px 10%;
-  background-color: #181A1B;
+  background-color: #333333;
   height: 80px;
   width: 100%;
 }
-
-
 
 li, a, button {
   font-family: "Comfortaa", cursive;
   text-decoration: none;
   font-weight: 500;
   font-size: 16px;
-  color: blue;
+  color: #8900FF;
+}
+
+a {
+  transition: all 0.3s ease 0s;
+}
+a:hover {
+  color:rgba(255, 0, 0, 0.8);
 }
 
 .logo {
@@ -30,6 +35,7 @@ li, a, button {
   border-radius: 50px;
   padding: 9px ;
   transition: all 0.3s ease 0s;
+  color: black;
 }
 .logo:hover {
   background-color: rgba(0, 255, 127, 0.8);
@@ -72,9 +78,8 @@ button:hover{
 body 
 {
   font-family: "Comfortaa", cursive;
-  background-color: whitesmoke;
+  background-color: #F4F4F4;
 }
-
 
 img {
   height: 400px;
@@ -112,7 +117,8 @@ hr {
 }
 
 .content-table tbody tr:nth-of-type(even) {
-  background-color: #f3f3f3;
+  background-color: #e7e5e5;
+  color: black;
 }
 .content-table tbody tr:last-of-type {
   border-bottom: 2px solid #00FF7F;
