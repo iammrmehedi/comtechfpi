@@ -9,7 +9,7 @@ header{
   justify-content: space-between;
   align-items: center;
   padding: 30px 10%;
-  background-color: #333333;
+  background-color: #000000;
   height: 80px;
   width: 100%;
 }
@@ -89,14 +89,14 @@ body
 }
 
 img {
-  height: 400px;
+  height: 540px;
   width: auto;
 }
 
 hr {
   height: 1px;
   width: 25%;
-  border-radius: 10px;
+  border-radius: 100px;
 }
 
 .content-table {
